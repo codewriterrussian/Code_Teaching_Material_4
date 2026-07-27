@@ -1,0 +1,28 @@
+# Teacher-only / private files
+Code_solution_teacher_only/
+handout_teacher_only/
+notebooks_solution_teacher_only/
+
+# Materials not yet released to this student
+student_handouts_md_not_upload/
+
+# Local helper scripts
+tools/
+
+# Notion / Markdown import temporary folders
+student_handouts_md/_zip_originals/
+student_handouts_md/_restore_tmp/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local test / old files
+/1.hs
+/lesson_1.ipynb
