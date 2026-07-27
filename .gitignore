@@ -26,3 +26,16 @@ Thumbs.db
 # Local test / old files
 /1.hs
 /lesson_1.ipynb
+
+# Compiled C/C++ files
+*.o
+*.out
+*.exe
+*.dSYM/
+exercises/test
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
