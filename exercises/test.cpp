@@ -1,6 +1,13 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    std::cout << "C++ is working in VS Code!" << std::endl;
+    char age;
+
+    cout << "請輸入你的年齡：";
+    cin >> age;
+
+    cout << "你的年齡是 " << age << " 歲。\n";
+
     return 0;
 }
