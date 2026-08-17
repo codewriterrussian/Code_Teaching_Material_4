@@ -1,22 +1,12 @@
-
 #include <stdio.h>
 
-int main(void){
-    int totalsec;
-    int hrs, mins, secs;
+int main(void) {
 
-    // 輸入
-    scanf("%d", &totalsec);
+    unsigned int a = 0;
+    unsigned int b = a - 2;
 
-    // 運算 (% / )
-    hrs = totalsec / 3600;
-    mins = (totalsec % 3600) / 60;
-    secs = totalsec % 60;
-
-    // 輸出
-    printf("H = %d\n", hrs);
-    printf("M = %d\n", mins);
-    printf("S = %d\n", secs);
+    printf("%%d: %d\n", b);
+    printf("%%u: %u\n", b);
 
     return 0;
 }
