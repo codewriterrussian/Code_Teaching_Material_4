@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 int main(void) {
-    double pi = 3.141592653589793;
-
-    printf("%.2f\n", pi);
-    printf("%.4f\n", pi);
-    printf("%.8f\n", pi);
-    printf("%e\n", pi);
+    printf("short: %zu byte(s)\n", sizeof(short));
+    printf("int: %zu byte(s)\n", sizeof(int));
+    printf("long: %zu byte(s)\n", sizeof(long));
+    printf("long long: %zu byte(s)\n", sizeof(long long));
+    printf("float: %zu byte(s)\n", sizeof(float));
+    printf("double: %zu byte(s)\n", sizeof(double));
+    printf("char: %zu byte(s)\n", sizeof(char));
 
     return 0;
 }
