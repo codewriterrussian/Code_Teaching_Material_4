@@ -97,7 +97,7 @@ if (condition) {
 一次判斷只會執行其中一個區塊。
 
 
-![圖：if 與 if-else 的差異](images/CPP_Lesson_07_img01_if_vs_if_else.png)
+![圖：if 與 if-else 的差異](images/lesson_07/CPP_Lesson_07_img01_if_vs_if_else.png)
 
 ---
 
@@ -123,7 +123,7 @@ int main() {
 ```
 
 
-![圖：if-else 二選一流程](images/CPP_Lesson_07_img02_if_else_two_way_flow.png)
+![圖：if-else 二選一流程](images/lesson_07/CPP_Lesson_07_img02_if_else_two_way_flow.png)
 
 ---
 
@@ -149,7 +149,7 @@ int main() {
 ```
 
 
-![圖：奇數與偶數的二分流程](images/CPP_Lesson_07_img03_even_odd_two_way.png)
+![圖：奇數與偶數的二分流程](images/lesson_07/CPP_Lesson_07_img03_even_odd_two_way.png)
 
 ---
 
@@ -173,7 +173,7 @@ number < 0
 所以不能把訊息直接寫成 `Negative`。
 
 
-![圖：else 代表剩餘所有情況](images/CPP_Lesson_07_img04_else_means_remaining_cases.png)
+![圖：else 代表剩餘所有情況](images/lesson_07/CPP_Lesson_07_img04_else_means_remaining_cases.png)
 
 ---
 
@@ -217,7 +217,7 @@ int main() {
 ```
 
 
-![圖：else if 三分支流程](images/CPP_Lesson_07_img05_else_if_three_way_flow.png)
+![圖：else if 三分支流程](images/lesson_07/CPP_Lesson_07_img05_else_if_three_way_flow.png)
 
 ---
 
@@ -233,7 +233,7 @@ int main() {
 第一個成立的分支執行後，剩餘分支不再檢查。
 
 
-![圖：else if 第一個 true 勝出](images/CPP_Lesson_07_img06_first_true_wins.png)
+![圖：else if 第一個 true 勝出](images/lesson_07/CPP_Lesson_07_img06_first_true_wins.png)
 
 ---
 
@@ -254,7 +254,7 @@ if (score >= 90) {
 ```
 
 
-![圖：成績門檻必須由高到低](images/CPP_Lesson_07_img07_grade_threshold_order.png)
+![圖：成績門檻必須由高到低](images/lesson_07/CPP_Lesson_07_img07_grade_threshold_order.png)
 
 ---
 
@@ -302,7 +302,7 @@ int main() {
 ```
 
 
-![圖：成績區間階梯圖](images/CPP_Lesson_07_img08_grade_range_ladder.png)
+![圖：成績區間階梯圖](images/lesson_07/CPP_Lesson_07_img08_grade_range_ladder.png)
 
 ---
 
@@ -369,7 +369,7 @@ if (number % 3 == 0) {
 | 只有二選一 | `if-else` |
 
 
-![圖：獨立 if 與 else if 的選擇](images/CPP_Lesson_07_img09_independent_if_vs_else_if.png)
+![圖：獨立 if 與 else if 的選擇](images/lesson_07/CPP_Lesson_07_img09_independent_if_vs_else_if.png)
 
 ---
 
@@ -449,7 +449,7 @@ int main() {
 這裡使用兩個獨立 `if`，因為每一步都要檢查是否需要更新目前最大值。
 
 
-![圖：逐步更新三數最大值](images/CPP_Lesson_07_img10_running_maximum.png)
+![圖：逐步更新三數最大值](images/lesson_07/CPP_Lesson_07_img10_running_maximum.png)
 
 ---
 
@@ -470,7 +470,7 @@ if (outerCondition) {
 ```
 
 
-![圖：巢狀 if-else 樹狀結構](images/CPP_Lesson_07_img11_nested_if_else_tree.png)
+![圖：巢狀 if-else 樹狀結構](images/lesson_07/CPP_Lesson_07_img11_nested_if_else_tree.png)
 
 ---
 
@@ -491,7 +491,7 @@ if (firstCondition)
 建議一律使用大括號。
 
 
-![圖：dangling else 配對規則](images/CPP_Lesson_07_img12_dangling_else.png)
+![圖：dangling else 配對規則](images/lesson_07/CPP_Lesson_07_img12_dangling_else.png)
 
 ---
 
@@ -508,7 +508,7 @@ if (firstCondition) {
 ```
 
 
-![圖：使用大括號消除 dangling else 歧義](images/CPP_Lesson_07_img13_braces_resolve_dangling_else.png)
+![圖：使用大括號消除 dangling else 歧義](images/lesson_07/CPP_Lesson_07_img13_braces_resolve_dangling_else.png)
 
 ---
 
@@ -549,7 +549,7 @@ int main() {
 ```
 
 
-![圖：else if 計算器決策樹](images/CPP_Lesson_07_img14_else_if_calculator_tree.png)
+![圖：else if 計算器決策樹](images/lesson_07/CPP_Lesson_07_img14_else_if_calculator_tree.png)
 
 ---
 
@@ -568,7 +568,7 @@ second 是否為 0
 ```
 
 
-![圖：除法需要第二層零值檢查](images/CPP_Lesson_07_img15_nested_division_validation.png)
+![圖：除法需要第二層零值檢查](images/lesson_07/CPP_Lesson_07_img15_nested_division_validation.png)
 
 ---
 
@@ -586,7 +586,7 @@ second 是否為 0
 可考慮 `switch`。
 
 
-![圖：else if 與 switch 的視覺比較](images/CPP_Lesson_07_img16_else_if_vs_switch.png)
+![圖：else if 與 switch 的視覺比較](images/lesson_07/CPP_Lesson_07_img16_else_if_vs_switch.png)
 
 ---
 
@@ -609,7 +609,7 @@ switch (value) {
 ```
 
 
-![圖：switch 語法結構拆解](images/CPP_Lesson_07_img17_switch_syntax_anatomy.png)
+![圖：switch 語法結構拆解](images/lesson_07/CPP_Lesson_07_img17_switch_syntax_anatomy.png)
 
 ---
 
@@ -622,7 +622,7 @@ switch (value) {
 5. 沒有符合項目時執行 `default`。
 
 
-![圖：switch 的執行流程](images/CPP_Lesson_07_img18_switch_execution_flow.png)
+![圖：switch 的執行流程](images/lesson_07/CPP_Lesson_07_img18_switch_execution_flow.png)
 
 ---
 
@@ -669,7 +669,7 @@ int main() {
 ```
 
 
-![圖：星期 switch 選擇器](images/CPP_Lesson_07_img19_switch_day_selector.png)
+![圖：星期 switch 選擇器](images/lesson_07/CPP_Lesson_07_img19_switch_day_selector.png)
 
 ---
 
@@ -696,7 +696,7 @@ B
 ```
 
 
-![圖：漏寫 break 造成 fall-through](images/CPP_Lesson_07_img20_switch_fallthrough.png)
+![圖：漏寫 break 造成 fall-through](images/lesson_07/CPP_Lesson_07_img20_switch_fallthrough.png)
 
 ---
 
@@ -710,7 +710,7 @@ B
 - 刻意共用處理。
 
 
-![圖：break 與 fall-through 比較](images/CPP_Lesson_07_img21_break_vs_fallthrough.png)
+![圖：break 與 fall-through 比較](images/lesson_07/CPP_Lesson_07_img21_break_vs_fallthrough.png)
 
 ---
 
@@ -728,7 +728,7 @@ switch (month) {
 ```
 
 
-![圖：多個 case 共用同一程式區塊](images/CPP_Lesson_07_img22_shared_case_block.png)
+![圖：多個 case 共用同一程式區塊](images/lesson_07/CPP_Lesson_07_img22_shared_case_block.png)
 
 ---
 
@@ -747,7 +747,7 @@ case 2:
 ```
 
 
-![圖：明確 fallthrough 與漏寫 break 的差異](images/CPP_Lesson_07_img23_explicit_fallthrough.png)
+![圖：明確 fallthrough 與漏寫 break 的差異](images/lesson_07/CPP_Lesson_07_img23_explicit_fallthrough.png)
 
 ---
 
@@ -841,7 +841,7 @@ score >= 80
 範圍應使用 `else if`。
 
 
-![圖：switch 適合與不適合的情況](images/CPP_Lesson_07_img24_switch_good_bad_cases.png)
+![圖：switch 適合與不適合的情況](images/lesson_07/CPP_Lesson_07_img24_switch_good_bad_cases.png)
 
 ---
 
@@ -920,7 +920,7 @@ int main() {
 `switch` 內仍然可以使用 `if-else`。
 
 
-![圖：switch 計算器中的巢狀 if](images/CPP_Lesson_07_img25_switch_calculator_nested_if.png)
+![圖：switch 計算器中的巢狀 if](images/lesson_07/CPP_Lesson_07_img25_switch_calculator_nested_if.png)
 
 ---
 
@@ -941,7 +941,7 @@ case 1: {
 避免控制流程跳過變數初始化。
 
 
-![圖：case 的局部作用域](images/CPP_Lesson_07_img26_case_local_scope.png)
+![圖：case 的局部作用域](images/lesson_07/CPP_Lesson_07_img26_case_local_scope.png)
 
 ---
 
@@ -1028,7 +1028,7 @@ int main() {
 本章先固定二月為 28 天；閏年可作為延伸練習。
 
 
-![圖：月份天數的 case 分組](images/CPP_Lesson_07_img27_month_case_groups.png)
+![圖：月份天數的 case 分組](images/lesson_07/CPP_Lesson_07_img27_month_case_groups.png)
 
 ---
 
@@ -1086,7 +1086,7 @@ int main() {
 ```
 
 
-![圖：enum class 與 switch](images/CPP_Lesson_07_img28_enum_class_switch.png)
+![圖：enum class 與 switch](images/lesson_07/CPP_Lesson_07_img28_enum_class_switch.png)
 
 ---
 
@@ -1103,7 +1103,7 @@ int main() {
 | 多個條件可同時成立 | 獨立 `if` |
 
 
-![圖：分支結構選擇決策樹](images/CPP_Lesson_07_img29_branch_structure_decision_tree.png)
+![圖：分支結構選擇決策樹](images/lesson_07/CPP_Lesson_07_img29_branch_structure_decision_tree.png)
 
 ---
 
@@ -1578,7 +1578,7 @@ Equal
 18. 假設 `default` 一定必須放最後。
 
 
-![圖：分支判斷常見錯誤總覽](images/CPP_Lesson_07_img30_common_branching_errors.png)
+![圖：分支判斷常見錯誤總覽](images/lesson_07/CPP_Lesson_07_img30_common_branching_errors.png)
 
 ---
 

@@ -2,7 +2,7 @@
 
 <!-- lesson-image: C_Lesson_07_img16_if_else_vs_switch.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img16_if_else_vs_switch.png"
+  <img src="images/lesson_07/C_Lesson_07_img16_if_else_vs_switch.png"
        alt="C 語言教材圖解：if else vs switch"
        width="700">
 </p>
@@ -20,7 +20,7 @@
 
 <!-- lesson-image: C_Lesson_07_img01_if_vs_if_else.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img01_if_vs_if_else.png"
+  <img src="images/lesson_07/C_Lesson_07_img01_if_vs_if_else.png"
        alt="C 語言教材圖解：if vs if else"
        width="700">
 </p>
@@ -54,7 +54,7 @@
 
 <!-- lesson-image: C_Lesson_07_img08_else_if_first_match.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img08_else_if_first_match.png"
+  <img src="images/lesson_07/C_Lesson_07_img08_else_if_first_match.png"
        alt="C 語言教材圖解：else if first match"
        width="700">
 </p>
@@ -152,7 +152,7 @@ if (number >= 0) {
 
 <!-- lesson-image: C_Lesson_07_img04_independent_if_vs_if_else.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img04_independent_if_vs_if_else.png"
+  <img src="images/lesson_07/C_Lesson_07_img04_independent_if_vs_if_else.png"
        alt="C 語言教材圖解：independent if vs if else"
        width="700">
 </p>
@@ -185,7 +185,7 @@ if (number > 0) {
 
 <!-- lesson-image: C_Lesson_07_img05_dangling_else.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img05_dangling_else.png"
+  <img src="images/lesson_07/C_Lesson_07_img05_dangling_else.png"
        alt="C 語言教材圖解：dangling else"
        width="700">
 </p>
@@ -414,7 +414,7 @@ if (temperature < 10) {
 
 <!-- lesson-image: C_Lesson_07_img03_pass_fail_flow.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img03_pass_fail_flow.png"
+  <img src="images/lesson_07/C_Lesson_07_img03_pass_fail_flow.png"
        alt="C 語言教材圖解：pass fail flow"
        width="700">
 </p>
@@ -427,7 +427,7 @@ if (temperature < 10) {
 
 <!-- lesson-image: C_Lesson_07_img02_if_else_syntax.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img02_if_else_syntax.png"
+  <img src="images/lesson_07/C_Lesson_07_img02_if_else_syntax.png"
        alt="C 語言教材圖解：if else syntax"
        width="700">
 </p>
@@ -596,7 +596,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_07_img07_nested_if_vs_else_if.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img07_nested_if_vs_else_if.png"
+  <img src="images/lesson_07/C_Lesson_07_img07_nested_if_vs_else_if.png"
        alt="C 語言教材圖解：nested if vs else if"
        width="700">
 </p>
@@ -667,7 +667,7 @@ if (condition1) {
 
 <!-- lesson-image: C_Lesson_07_img10_guess_number_chain.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img10_guess_number_chain.png"
+  <img src="images/lesson_07/C_Lesson_07_img10_guess_number_chain.png"
        alt="C 語言教材圖解：guess number chain"
        width="700">
 </p>
@@ -704,7 +704,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_07_img09_condition_order.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img09_condition_order.png"
+  <img src="images/lesson_07/C_Lesson_07_img09_condition_order.png"
        alt="C 語言教材圖解：condition order"
        width="700">
 </p>
@@ -733,7 +733,7 @@ if (guess == answer) {
 
 <!-- lesson-image: C_Lesson_07_img11_calculator_else_if.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img11_calculator_else_if.png"
+  <img src="images/lesson_07/C_Lesson_07_img11_calculator_else_if.png"
        alt="C 語言教材圖解：calculator else if"
        width="700">
 </p>
@@ -975,7 +975,7 @@ if (c > maximum) {
 
 <!-- lesson-image: C_Lesson_07_img12_switch_syntax.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img12_switch_syntax.png"
+  <img src="images/lesson_07/C_Lesson_07_img12_switch_syntax.png"
        alt="C 語言教材圖解：switch syntax"
        width="700">
 </p>
@@ -1195,7 +1195,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_07_img18_product_id_mapping.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img18_product_id_mapping.png"
+  <img src="images/lesson_07/C_Lesson_07_img18_product_id_mapping.png"
        alt="C 語言教材圖解：product id mapping"
        width="700">
 </p>
@@ -1411,14 +1411,14 @@ break;
 
 <!-- lesson-image: C_Lesson_07_img14_break_vs_fallthrough.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img14_break_vs_fallthrough.png"
+  <img src="images/lesson_07/C_Lesson_07_img14_break_vs_fallthrough.png"
        alt="C 語言教材圖解：break vs fallthrough"
        width="700">
 </p>
 
 <!-- lesson-image: C_Lesson_07_img15_shared_cases.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img15_shared_cases.png"
+  <img src="images/lesson_07/C_Lesson_07_img15_shared_cases.png"
        alt="C 語言教材圖解：shared cases"
        width="700">
 </p>
@@ -1503,7 +1503,7 @@ maximum = a >= b ? a : b;
 
 <!-- lesson-image: C_Lesson_07_img13_switch_case_matching.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img13_switch_case_matching.png"
+  <img src="images/lesson_07/C_Lesson_07_img13_switch_case_matching.png"
        alt="C 語言教材圖解：switch case matching"
        width="700">
 </p>
@@ -2495,7 +2495,7 @@ case 1:
 
 <!-- lesson-image: C_Lesson_07_img17_char_case_quotes.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img17_char_case_quotes.png"
+  <img src="images/lesson_07/C_Lesson_07_img17_char_case_quotes.png"
        alt="C 語言教材圖解：char case quotes"
        width="700">
 </p>
@@ -2579,7 +2579,7 @@ flowchart TD
 
 <!-- lesson-image: C_Lesson_07_img06_compare_three_outcomes.png -->
 <p align="center">
-  <img src="images/C_Lesson_07_img06_compare_three_outcomes.png"
+  <img src="images/lesson_07/C_Lesson_07_img06_compare_three_outcomes.png"
        alt="C 語言教材圖解：compare three outcomes"
        width="700">
 </p>
