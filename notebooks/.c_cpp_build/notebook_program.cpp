@@ -1,16 +1,14 @@
 
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
-int main(void) {
-    double pi = 3.141592653589793;
+int main() {
+    int x = 10;
+    int *p = &x;
 
-    cout << fixed << setprecision(2) << pi << endl;
-    cout << fixed << setprecision(4) << pi << endl;
-    cout << fixed << setprecision(8) << pi << endl;
+    *p = 50;
 
-    cout << scientific << pi << endl;
+    cout << x << endl;
 
     return 0;
 }
